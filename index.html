@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Amaan Khan</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <div class="nav">
+        <h2>AK</h2>
+        <ul id="item">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="icon">
+                <a href="https://github.com/amaankhanakz" target="_blank"><i class="fa fa-github"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/amaan-khan-4308071b2/" target="_blank"><i class="fa fa-linkedin"
+                        aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+            </div>
+        </ul>
+        <i id="bar" class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+
+    <!-- <div class="back">
+        <div class="overlay"></div>
+    </div> -->
+
+    <!-- INTRO -->
+
+    <div class="wrapper" id="home">
+        <div class="mid">
+            <p>Hey!</p>
+            <h2>I'm Amaan,<br>
+                Front - End Developer</h2>
+        </div>
+
+
+        <div class="box">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+
+    <div class="trainer">
+        <div class="people">
+            <div class="team1" data-aos="fade-left">
+                <div class="img" id="about">
+                    <img src="/images/about.jpg" alt="">
+                </div>
+                <div class="teamDetails">
+                    <a href="https://www.facebook.com/amaan.jackson.khan/" target="_blank"><i class="fa fa-facebook"
+                            aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/amaanz23" target="_blank"><i class="fa fa-twitter"
+                            aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="about" data-aos="fade-right">
+            <h2>About Me</h2>
+            <h6>Hi, I am Amaan Khan (20 y/o) Delhi based Front-End Developer, currently pursuing B.Tech. (2020 - 2024)
+                in CSE
+                with
+                Specialization in Artificial Intelligence and Machine Learning from VIT Bhopal. <br><br>
+                I love designing websites, and as a developer I know how to create clean and responsive websites.</h6>
+        </div>
+    </div>
+
+    <!-- PROJECTS DISPLAY -->
+
+    <div class="class" data-aos="fade-down">
+        <h2 class="h2" id="projects">PROJECTS</h2>
+        <p class="paragraph">Click on any project image to visit the original project</p>
+    </div>
+
+
+    <div class="slideshow-container" data-aos="fade-down">
+
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 4 </div>
+            <a href="https://challenge-96bad.web.app/" target="_blank"><img src="/images/amazon.png"
+                    style="width:100%; cursor: pointer;"></a>
+            <div class="text"> Amazon Clone (React App) </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <a href="https://amaankhanakz.github.io/netflix-landing-page/" target="_blank"><img
+                    src="/images/netflix.png" style="width:100%"></a>
+            <div class="text fb"> Netflix Landing Page (Frontend)</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <a href="https://amaankhanakz.github.io/theme-clock/" target="_blank"><img src="/images/theme-clock.jpg"
+                    style="width:100%; cursor: pointer;"></a>
+            <div class="text"> Theme Clock</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <a href="https://amaankhanakz.github.io/facebook-frontend-redesign/" target="_blank"><img
+                    src="/images/facebook_redesign.png" style="width:100%"></a>
+            <div class="text fb"> Facebook Login Page (Redesigned)</div>
+        </div>
+
+        <!-- buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!--dots -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <!-- Skills -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="details">
+        <div class="one" data-aos="fade-up">
+            <h3>Skills</h3>
+            <h6>I have a diverse set of skills ranging from HTML + CSS + Javascript<br>along with Responsive Web Design
+            </h6>
+            <p>with these frontend skills I am also good with Mathematics & programming languages such as Python,C# &
+                C++
+                which helps me
+                in giving a great logical thinking when stuck between problems.</p>
+        </div>
+
+        <div class="two" data-aos="fade-up">
+            <h4>I am open to take</h4>
+            <h3> Freelance work</h3>
+            <a href="tel:+918076765125">Contact Me</a>
+        </div>
+    </div>
+
+
+    <!-- Contact and Map -->
+
+    <div class="contact" id="contact" data-aos="fade-right">
+        <div class="form">
+            <h2>Feel free to ask anything</h2>
+            <div class="submit">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <a href="#">Send Message</a>
+            </div>
+        </div>
+        <div class="map" data-aos="fade-left">
+            <h2>Where to find me</h2>
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i>
+                Mehrauli, New Delhi - 110030, INDIA</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14022.596223303884!2d77.17040322357734!3d28.520204623250887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1e14c985095d%3A0x61171f74e37f2546!2sMehrauli%2C%20New%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1616082697849!5m2!1sen!2sin"
+                width="1290" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p class="p">Copyright &copy; 2021 Amaan Khan</p>
+        <p><i class="fa fa-envelope-o" aria-hidden="true"></i><a
+                href="mailto:sameeramaan2014@gmail.com">sameeramaan2014@gmail.com</a><br><i class="fa fa-phone"
+                aria-hidden="true"></i>
+            <a href="tel:+918076765125">+91- 80 7676 5125</a>
+        </p>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000,
+        });
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
